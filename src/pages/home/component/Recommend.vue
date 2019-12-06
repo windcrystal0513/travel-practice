@@ -2,7 +2,7 @@
 	<div>
 		<div class="recommend-title">热销推荐</div>
 		<ul>
-			<li class="item border-bottom" v-for='item of recommendList' :key='item.id'>
+			<li class="item border-bottom" v-for='item of list' :key='item.id'>
 				<img  class="item-img" :src="item.imgUrl">
 				<div class="item-info">
 					<p class="item-title">{{item.title}}</p>
@@ -17,30 +17,8 @@
 <script>
 export default{
 	name:'HomeRecommend',
-	data(){
-		return{
-			recommendList:[{
-				id:'0001',
-				imgUrl:'http://img1.qunarzz.com/sight/p0/201403/10/b0e7eeb18db9a7dc4f0376a13d4ab15d.jpg_200x200_3ff00ade.jpg',
-				title:'西安关中民俗艺术博物馆',
-				desc:'西安关中民俗页数博物馆介绍'
-			},{
-				id:'0002',
-				imgUrl:'http://img1.qunarzz.com/sight/p0/201403/10/b0e7eeb18db9a7dc4f0376a13d4ab15d.jpg_200x200_3ff00ade.jpg',
-				title:'西安关中民俗艺术博物馆',
-				desc:'西安关中民俗页数博物馆介绍'
-			},{
-				id:'0003',
-				imgUrl:'http://img1.qunarzz.com/sight/p0/201403/10/b0e7eeb18db9a7dc4f0376a13d4ab15d.jpg_200x200_3ff00ade.jpg',
-				title:'西安关中民俗艺术博物馆',
-				desc:'西安关中民俗页数博物馆介绍'
-			},{
-				id:'0004',
-				imgUrl:'http://img1.qunarzz.com/sight/p0/201403/10/b0e7eeb18db9a7dc4f0376a13d4ab15d.jpg_200x200_3ff00ade.jpg',
-				title:'西安关中民俗艺术博物馆',
-				desc:'西安关中民俗页数博物馆介绍'
-			},]
-		}
+	props:{
+		list:Array
 	}
 }	
 </script>
