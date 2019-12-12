@@ -50,6 +50,7 @@ export default{
 					this.iconList=res.data.iconList
 					this.recommendList=res.data.recommendList
 					this.weekendList=res.data.weekendList
+
 				}
 			}
 		},

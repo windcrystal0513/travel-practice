@@ -1,0 +1,29 @@
+{
+	"ret":true,
+	"data":{
+		"sightName":"秦始皇陵博物院（AAAAA景区）",
+		"bannerImg":"http://img1.qunarzz.com/sight/p0/1411/1a/5582f9f24bc50b475a8cbda4c5ac8d24.water.jpg_600x330_e8437d6f.jpg",
+		"gallaryImgs":["http://img1.qunarzz.com/sight/p0/1411/1a/5582f9f24bc50b475a8cbda4c5ac8d24.water.jpg_600x330_e8437d6f.jpg",
+			"http://img1.qunarzz.com/sight/p0/1505/10/100d2e82848fb2.water.jpg_r_800x800_5b03aa73.jpg"],
+		"categoryList":[{
+			"title":"成人票",
+			"children":[{
+				"title":"成人三馆联票",
+				"children":[{
+				"title":"成人三馆联票-wind之家"
+			},{
+				"title":"成人三馆联票-crystal之家"
+			}]
+
+			},{
+				"title":"成人五馆联票"
+			}]
+		},{
+			"title":"学生票"
+		},{
+			"title":"儿童票"
+		},{
+			"title":"特惠票"
+		}]
+	}
+}
